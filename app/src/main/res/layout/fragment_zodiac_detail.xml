@@ -3,34 +3,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
     android:orientation="vertical">
-
 
     <TextView
         android:id="@+id/zodiac_name"
-        style="@style/zodaic"
+        android:textAlignment="center"
+        android:fontFamily="serif-monospace"
+        android:textStyle="italic"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="50sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="Zodiac Name" />
 
     <TextView
         android:id="@+id/zodiac_description"
-        style="@style/zodaic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="serif-monospace"
+        android:textStyle="italic"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="50sp"
+        android:layout_marginTop="20dp"
         android:text="Zodiac Description" />
 
     <TextView
         android:id="@+id/zodiac_symbol"
-        style="@style/zodaic"
+        android:textAlignment="center"
+        android:fontFamily="serif-monospace"
+        android:textStyle="italic"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="50sp"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Zodiac Symbol" />
 
     <TextView
         android:id="@+id/zodiac_month"
-        style="@style/zodaic"
+        android:textAlignment="center"
+        android:fontFamily="serif-monospace"
+        android:textStyle="italic"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="50sp"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Zodiac Month" />

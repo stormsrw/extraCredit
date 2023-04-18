@@ -15,7 +15,7 @@
     </style>
     <style name="zodaic">
         <item name="android:textColor">@color/design_default_color_error</item>
-        <item name="fontStyle">italic</item>
+        <item name="fontFamily">italic</item>
         <item name="android:textAlignment">center</item>
         <item name="android:layout_marginTop">15dp</item>
         <item name="android:textSize">50sp</item>
